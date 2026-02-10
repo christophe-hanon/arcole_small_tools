@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_arcole_account_tag_user,arcole.account.tag.user,model_arcole_account_tag,account.group_account_user,1,0,0,0
+access_arcole_account_tag_manager,arcole.account.tag.manager,model_arcole_account_tag,account.group_account_manager,1,1,1,1

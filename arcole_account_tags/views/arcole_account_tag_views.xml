@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <!-- List View -->
+    <record id="arcole_account_tag_view_list" model="ir.ui.view">
+        <field name="name">arcole.account.tag.list</field>
+        <field name="model">arcole.account.tag</field>
+        <field name="arch" type="xml">
+            <list>
+                <field name="name"/>
+                <field name="short_code"/>
+                <field name="domain_move"/>
+                <field name="domain_move_line"/>
+            </list>
+        </field>
+    </record>
+
+    <!-- Form View -->
+    <record id="arcole_account_tag_view_form" model="ir.ui.view">
+        <field name="name">arcole.account.tag.form</field>
+        <field name="model">arcole.account.tag</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name"/>
+                            <field name="short_code"/>
+                        </group>
+                        <group>
+                            <field name="domain_move"/>
+                            <field name="domain_move_line"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <!-- Search View -->
+    <record id="arcole_account_tag_view_search" model="ir.ui.view">
+        <field name="name">arcole.account.tag.search</field>
+        <field name="model">arcole.account.tag</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="name"/>
+                <field name="short_code"/>
+                <separator/>
+                <filter name="filter_domain_move" string="Applicable to Moves" domain="[('domain_move', '=', True)]"/>
+                <filter name="filter_domain_move_line" string="Applicable to Move Lines" domain="[('domain_move_line', '=', True)]"/>
+                <separator/>
+       
+            </search>
+        </field>
+    </record>
+
+    <!-- Action -->
+    <record id="arcole_account_tag_action" model="ir.actions.act_window">
+        <field name="name">Arcole Tags</field>
+        <field name="res_model">arcole.account.tag</field>
+        <field name="view_mode">list,form</field>
+        <field name="search_view_id" ref="arcole_account_tag_view_search"/>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create your first Arcole Tag
+            </p>
+            <p>
+                Tags can be applied to account moves and/or move lines based on their domain settings.
+            </p>
+        </field>
+    </record>
+
+    <!-- Menu Items -->
+    <menuitem
+        id="menu_arcole_extra_root"
+        name="Extra"
+        parent="account.menu_finance_configuration"
+        sequence="100"/>
+
+    <menuitem
+        id="menu_arcole_account_tags"
+        name="Arcole Tags"
+        parent="menu_arcole_extra_root"
+        action="arcole_account_tag_action"
+        sequence="10"/>
+
+</odoo>
