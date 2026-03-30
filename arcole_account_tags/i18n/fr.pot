@@ -1,0 +1,140 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* arcole_account_tags
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 19.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-05 16:44+0000\n"
+"PO-Revision-Date: 2026-03-05 16:44+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#. module: arcole_account_tags
+#: model:ir.model.fields,field_description:arcole_account_tags.field_arcole_account_tag__domain_move_line
+#: model_terms:ir.ui.view,arch_db:arcole_account_tags.arcole_account_tag_view_search
+msgid "Applicable to Move Lines"
+msgstr "Applicable aux lignes d'écriture"
+
+#. module: arcole_account_tags
+#: model:ir.model.fields,field_description:arcole_account_tags.field_arcole_account_tag__domain_move
+#: model_terms:ir.ui.view,arch_db:arcole_account_tags.arcole_account_tag_view_search
+msgid "Applicable to Moves"
+msgstr "Applicable aux écritures"
+
+#. module: arcole_account_tags
+#: model:ir.model,name:arcole_account_tags.model_arcole_account_tag
+msgid "Arcole Account Tag"
+msgstr "Étiquette de compte Arcole"
+
+#. module: arcole_account_tags
+#: model:ir.actions.act_window,name:arcole_account_tags.arcole_account_tag_action
+#: model:ir.ui.menu,name:arcole_account_tags.menu_arcole_account_tags
+msgid "Arcole Tags"
+msgstr "Étiquettes Arcole"
+
+#. module: arcole_account_tags
+#: model:ir.model.fields,field_description:arcole_account_tags.field_arcole_account_tag__color
+msgid "Color"
+msgstr "Couleur"
+
+#. module: arcole_account_tags
+#: model_terms:ir.actions.act_window,help:arcole_account_tags.arcole_account_tag_action
+msgid "Create your first Arcole Tag"
+msgstr "Créez votre première étiquette Arcole"
+
+#. module: arcole_account_tags
+#: model:ir.model.fields,field_description:arcole_account_tags.field_arcole_account_tag__create_uid
+msgid "Created by"
+msgstr "Créé par"
+
+#. module: arcole_account_tags
+#: model:ir.model.fields,field_description:arcole_account_tags.field_arcole_account_tag__create_date
+msgid "Created on"
+msgstr "Créé le"
+
+#. module: arcole_account_tags
+#: model:ir.model.fields,field_description:arcole_account_tags.field_account_move__display_name
+#: model:ir.model.fields,field_description:arcole_account_tags.field_account_move_line__display_name
+#: model:ir.model.fields,field_description:arcole_account_tags.field_arcole_account_tag__display_name
+msgid "Display Name"
+msgstr "Nom affiché"
+
+#. module: arcole_account_tags
+#: model:ir.ui.menu,name:arcole_account_tags.menu_arcole_extra_root
+msgid "Extra"
+msgstr "Extra"
+
+#. module: arcole_account_tags
+#: model:ir.model.fields,field_description:arcole_account_tags.field_account_bank_statement_line__arcole_account_tag_ids
+#: model:ir.model.fields,field_description:arcole_account_tags.field_account_move__arcole_account_tag_ids
+#: model:ir.model.fields,field_description:arcole_account_tags.field_account_move_line__arcole_account_tag_ids
+msgid "Extra Tags"
+msgstr "Étiquettes supplémentaires"
+
+#. module: arcole_account_tags
+#: model:ir.model.fields,field_description:arcole_account_tags.field_account_bank_statement_line__arcole_extra_text
+#: model:ir.model.fields,field_description:arcole_account_tags.field_account_move__arcole_extra_text
+#: model:ir.model.fields,field_description:arcole_account_tags.field_account_move_line__arcole_extra_text
+msgid "Extra Text"
+msgstr "Texte supplémentaire"
+
+#. module: arcole_account_tags
+#: model:ir.model.fields,field_description:arcole_account_tags.field_account_move__id
+#: model:ir.model.fields,field_description:arcole_account_tags.field_account_move_line__id
+#: model:ir.model.fields,field_description:arcole_account_tags.field_arcole_account_tag__id
+msgid "ID"
+msgstr "ID"
+
+#. module: arcole_account_tags
+#: model:ir.model.fields,help:arcole_account_tags.field_arcole_account_tag__domain_move
+msgid "If checked, this tag can be used on account.move records."
+msgstr "Si coché, cette étiquette peut être utilisée sur les enregistrements account.move."
+
+#. module: arcole_account_tags
+#: model:ir.model.fields,help:arcole_account_tags.field_arcole_account_tag__domain_move_line
+msgid "If checked, this tag can be used on account.move.line records."
+msgstr "Si coché, cette étiquette peut être utilisée sur les enregistrements account.move.line."
+
+#. module: arcole_account_tags
+#: model:ir.model,name:arcole_account_tags.model_account_move
+msgid "Journal Entry"
+msgstr "Pièce comptable"
+
+#. module: arcole_account_tags
+#: model:ir.model,name:arcole_account_tags.model_account_move_line
+msgid "Journal Item"
+msgstr "Écriture comptable"
+
+#. module: arcole_account_tags
+#: model:ir.model.fields,field_description:arcole_account_tags.field_arcole_account_tag__write_uid
+msgid "Last Updated by"
+msgstr "Mis à jour par"
+
+#. module: arcole_account_tags
+#: model:ir.model.fields,field_description:arcole_account_tags.field_arcole_account_tag__write_date
+msgid "Last Updated on"
+msgstr "Mis à jour le"
+
+#. module: arcole_account_tags
+#: model:ir.model.fields,field_description:arcole_account_tags.field_arcole_account_tag__name
+msgid "Name"
+msgstr "Nom"
+
+#. module: arcole_account_tags
+#: model:ir.model.fields,field_description:arcole_account_tags.field_arcole_account_tag__short_code
+msgid "Short Code"
+msgstr "Code court"
+
+#. module: arcole_account_tags
+#: model_terms:ir.actions.act_window,help:arcole_account_tags.arcole_account_tag_action
+msgid ""
+"Tags can be applied to account moves and/or move lines based on their domain"
+" settings."
+msgstr "Les étiquettes peuvent être appliquées aux écritures et/ou lignes d'écriture selon leurs paramètres de domaine."

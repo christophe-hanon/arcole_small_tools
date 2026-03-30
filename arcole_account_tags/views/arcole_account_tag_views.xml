@@ -11,6 +11,7 @@
                 <field name="short_code"/>
                 <field name="domain_move"/>
                 <field name="domain_move_line"/>
+                <field name="color" widget="color_picker"/>
             </list>
         </field>
     </record>
@@ -26,6 +27,7 @@
                         <group>
                             <field name="name"/>
                             <field name="short_code"/>
+                            <field name="color" widget="color_picker"/>
                         </group>
                         <group>
                             <field name="domain_move"/>
